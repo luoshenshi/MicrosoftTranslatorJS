@@ -1,0 +1,40 @@
+{
+  "name": "microsoft-translator",
+  "version": "1.0.0",
+  "description": "Yet another library for translation!",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "type": "module",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "import": "./dist/index.mjs"
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luoshenshi/MicrosoftTranslatorJS.git"
+  },
+  "keywords": [
+    "translator",
+    "microsoft",
+    "microsoft-translator"
+  ],
+  "author": "luoshenshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luoshenshi/MicrosoftTranslatorJS/issues"
+  },
+  "homepage": "https://github.com/luoshenshi/MicrosoftTranslatorJS#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3",
+    "undici-types": "^7.7.0"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
